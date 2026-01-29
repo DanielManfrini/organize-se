@@ -9,7 +9,7 @@ import VMainTabs from '@/Components/Main/VMainTabs.vue';
   <v-container height="100%">
     <v-row>
       <v-col>
-        <v-sheet elevation="1" rounded>
+        <v-sheet elevation="0" rounded>
           <v-container height="100%">
             <v-row no-gutters>
               <v-title type="4" title="Seja bem vindo!" />

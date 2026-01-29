@@ -1,6 +1,7 @@
 <script setup>
 import VPartiesTab from './VPartiesTab.vue';
 import { ref } from 'vue';
+import VPopularFontsTab from './VPopularFrontsTab.vue';
 
 const tab = ref('one');
 </script>
@@ -19,6 +20,7 @@ const tab = ref('one');
             <v-parties-tab />
         </v-tabs-window-item>
         <v-tabs-window-item :value="2">
+            <v-popular-fonts-tab />
         </v-tabs-window-item>
         <v-tabs-window-item :value="3">
         </v-tabs-window-item>

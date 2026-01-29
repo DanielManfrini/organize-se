@@ -11,6 +11,35 @@ export default createVuetify({
             mdi,
         },
     },
+    defaults: {
+        VBtn: {
+            variant: "tonal",
+        },
+        VTextField: {
+            variant: "outlined",
+            density: "compact",
+        },
+        VTextarea: {
+            variant: "outlined",
+            density: "compact",
+        },
+        VSelect: {
+            variant: "outlined",
+            density: "compact",
+        },
+        VAutocomplete: {
+            variant: "outlined",
+            density: "compact",
+        },
+        VCombobox: {
+            variant: "outlined",
+            density: "compact",
+        },
+        VFileInput: {
+            variant: "outlined",
+            density: "compact",
+        },
+    },
     theme: {
         defaultTheme: "light",
         themes: {

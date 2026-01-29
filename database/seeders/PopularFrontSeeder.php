@@ -13,6 +13,7 @@ class PopularFrontSeeder extends Seeder
         DB::table('popular_fronts')->insert([
             [
                 'name' => 'Movimento dos Trabalhadores Rurais Sem Terra',
+                'logo_path' => 'fronts/logos/MST.png',
                 'slug' => Str::slug('Movimento dos Trabalhadores Rurais Sem Terra'),
                 'acronym' => 'MST',
                 'description' => 'Movimento social brasileiro que luta pela reforma agrária e justiça social.',
@@ -32,6 +33,7 @@ class PopularFrontSeeder extends Seeder
             ],
             [
                 'name' => 'União Nacional dos Estudantes',
+                'logo_path' => 'fronts/logos/UNE.png',
                 'slug' => Str::slug('União Nacional dos Estudantes'),
                 'acronym' => 'UNE',
                 'description' => 'Entidade máxima de representação dos estudantes brasileiros.',
